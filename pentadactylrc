@@ -1,0 +1,4 @@
+colorscheme molokai
+
+" Keys
+map <C-t> :tabopen 
