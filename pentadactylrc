@@ -2,7 +2,8 @@ colorscheme molokai
 
 " Keys
 " Pass <C-t> to firefox
-map -b <C-t> <pass-next-key><C-t>o
+" Consider adding "o" at the end
+map -b <C-t> <pass-next-key><C-t>
 
 "Select all
 map -b <C-a> <pass-next-key><C-a>
