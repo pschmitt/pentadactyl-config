@@ -8,4 +8,11 @@ map -b <C-t> <pass-next-key><C-t>
 "Select all
 map -b <C-a> <pass-next-key><C-a>
 
+" Pass through for some sites
+autocmd LocationChange ^https?://(drive|docs)\.google\.com/ :normal! <C-z>
+set passkeys+=feed.lxl.io:jk<CR>
+
+" Plugins config
 source ~/.config/pentadactyl/pentadactylrc_plugins
+
+"vim: set ft=pentadactyl et ts=4
