@@ -1,4 +1,8 @@
+" Colors
 colorscheme molokai
+
+" Search provider (default: Google)
+set defsearch=g
 
 " Keys
 " Pass <C-t> to firefox
