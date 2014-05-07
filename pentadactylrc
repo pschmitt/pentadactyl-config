@@ -11,6 +11,7 @@ map -b <C-t> <pass-next-key><C-t>
 
 "Select all
 map -b <C-a> <pass-next-key><C-a>
+imap -b <C-a> <pass-next-key><C-a>
 
 " Pass through for some sites
 autocmd LocationChange ^https?://(drive|docs)\.google\.com/ :normal! <C-z>
